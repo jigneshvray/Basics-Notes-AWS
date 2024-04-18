@@ -9,4 +9,6 @@ List of the service :
 7. RDS AND DYNAMO DB
 8. ROUTE 53
 9. CLOUDFRONT
-10.  SQS
+10. SQS
+
+#### Use AWS Documents for more : https://docs.aws.amazon.com/
