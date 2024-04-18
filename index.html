@@ -17,11 +17,12 @@
     }
 
     .container {
-      width: 400px;
+      width: 600px;
       padding: 20px;
       background-color: #fff;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px; /* Added margin-top */
     }
 
     h1 {
@@ -35,10 +36,14 @@
       list-style-type: none;
       padding: 0;
       margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
+      width: calc(50% - 10px); /* Adjusted width to create pairs */
     }
 
     li a {
@@ -49,12 +54,13 @@
       text-decoration: none;
       text-align: center;
       border-radius: 5px;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, transform 0.2s ease;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     li a:hover {
       background-color: #0056b3;
+      transform: translateY(-2px);
     }
 
     .footer {
@@ -97,6 +103,5 @@
       <li><a href="SNS-1.pdf" target="_blank">Simple Notification Service-1</a></li>
       <li><a href="sqs.pdf" target="_blank">Simple Queue Service</a></li>
     </ul>
-  </div>
 </body>
 </html>
